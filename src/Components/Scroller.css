@@ -1,0 +1,23 @@
+/* Container for the marquee */
+.marquee-container {
+  width: 100%; /* Full width of the parent */
+  overflow: hidden; /* Hide overflow content */
+  white-space: nowrap; /* Ensure text stays in a single line */
+  padding: 10px 0; /* Add some vertical padding */
+}
+
+/* Moving text */
+.marquee {
+  display: inline-block;
+  animation: marqueeScroll 30s linear infinite;
+}
+
+/* Keyframes for the scrolling effect */
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

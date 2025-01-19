@@ -1,272 +1,138 @@
 export const vegetables = [
   {
     name: "Cabbage",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2970.png",
-    quantity: "One Unit",
-    id: 1,
+    image: "https://www.freepngimg.com/thumb/categories/2970.png",
+    stock: 50,
     price: 30,
+    category: "Vegetables",
+    description:
+      "A naturally grown cabbage from our chemical-free farms, rich in fiber and perfect for a healthy diet.",
   },
   {
     name: "Capsicum",
-    photo_url:
+    image:
       "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
-    quantity: "One Unit",
-    id: 2,
+    stock: 50,
+    category: "Vegetables",
+
     price: 5,
+    description:
+      "Fresh and crispy capsicum, grown organically to add vibrant flavor and nutrition to your meals.",
   },
   {
     name: "Garlic",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
-    quantity: "One Unit",
-    id: 3,
+    stock: 50,
+    category: "Vegetables",
+
     price: 20,
+    description:
+      "Aromatic garlic, grown without pesticides, perfect for boosting immunity and enhancing flavor.",
   },
   {
     name: "Beetroot",
-    photo_url: "https://pngimg.com/uploads/beet/beet_PNG28.png",
-    quantity: "One Unit",
-    id: 4,
+    image: "https://pngimg.com/uploads/beet/beet_PNG28.png",
+    stock: 50,
     price: 20,
+    category: "Vegetables",
+
+    description:
+      "Nutrient-packed beetroot, grown naturally to ensure you get the best for your heart and health.",
   },
   {
     name: "Tomatoes",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2985.png",
-    quantity: "One Unit",
-    id: 5,
+    image: "https://www.freepngimg.com/thumb/categories/2985.png",
+    stock: 50,
     price: 5,
+    category: "Vegetables",
+
+    description:
+      "Juicy, farm-fresh tomatoes, grown without chemicals for rich flavor and nutrition in every bite.",
   },
   {
     name: "Carrots",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2971.png",
-    quantity: "One Kg",
-    id: 6,
+    image: "https://www.freepngimg.com/thumb/categories/2971.png",
+    stock: "One Kg",
     price: 60,
+    category: "Vegetables",
+
+    description:
+      "Crunchy, sweet carrots from our organic farms, perfect for snacking or cooking.",
   },
   {
     name: "Onions",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
-    quantity: "One Kg",
-    id: 7,
+    stock: 90,
     price: 120,
+    category: "Vegetables",
+
+    description:
+      "Flavorsome onions grown without chemicals, ideal for enhancing your favorite dishes.",
   },
   {
     name: "Potatoes",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
-    quantity: "One container",
-    id: 8,
+    stock: 80,
+    category: "Vegetables",
+
     price: 80,
-  },
-  {
-    name: "Cabbage",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2970.png",
-    quantity: "One Unit",
-    id: 9,
-    price: 30,
-  },
-  {
-    name: "Capsicum",
-    photo_url:
-      "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
-    quantity: "One Unit",
-    id: 10,
-    price: 5,
-  },
-  {
-    name: "Garlic",
-    photo_url:
-      "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
-    quantity: "One Unit",
-    id: 11,
-    price: 20,
-  },
-  {
-    name: "Beetroot",
-    photo_url: "https://pngimg.com/uploads/beet/beet_PNG28.png",
-    quantity: "One Unit",
-    id: 12,
-    price: 20,
-  },
-  {
-    name: "Tomatoes",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2985.png",
-    quantity: "One Unit",
-    id: 13,
-    price: 5,
-  },
-  {
-    name: "Carrots",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2971.png",
-    quantity: "One Kg",
-    id: 14,
-    price: 60,
-  },
-  {
-    name: "Onions",
-    photo_url:
-      "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
-    quantity: "One Kg",
-    id: 15,
-    price: 120,
-  },
-  {
-    name: "Potatoes",
-    photo_url:
-      "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
-    quantity: "One container",
-    id: 16,
-    price: 80,
+    description:
+      "Versatile, organically grown potatoes for every meal, from fries to curries.",
   },
 ];
+
 export const fruits = [
   {
     name: "Bananas",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/banana/8-banana-png-image-thumb.png",
-    quantity: "One Unit",
-    id: 1,
+    stock: 50,
     price: 10,
-  },
-  {
-    name: "Cabbage",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2970.png",
-    quantity: "One Unit",
-    id: 2,
-    price: 30,
+    description:
+      "Sweet, naturally ripened bananas from our chemical-free farms, a perfect energy booster.",
+    category: "Fruits",
   },
   {
     name: "Oranges",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/orange/4-orange-png-image-download-thumb.png",
-    quantity: "One Unit",
-    id: 3,
+    stock: 50,
     price: 10,
+    description:
+      "Citrus-rich oranges, naturally grown to keep you refreshed and boost your immunity.",
+    category: "Fruits",
   },
   {
     name: "Watermelon",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/watermelon/1-watermelon-png-image-thumb.png",
-    quantity: "One Unit",
-    id: 4,
+    stock: 50,
     price: 150,
+    description:
+      "Juicy watermelons, grown organically to quench your thirst with natural sweetness.",
+    category: "Fruits",
   },
   {
     name: "Grapes",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/grape/4-grape-png-image-download-picture-thumb.png",
-    quantity: "One Bunch",
-    id: 5,
+    stock: 78,
     price: 150,
+    description:
+      "Plump, sweet grapes, handpicked from our pesticide-free vineyards for a guilt-free snack.",
+    category: "Fruits",
   },
   {
     name: "Pineapple",
-    photo_url:
+    image:
       "https://www.freepngimg.com/thumb/pineapple/2-pineapple-png-image-download-thumb.png",
-    quantity: "One Unit",
-    id: 6,
+    stock: 50,
     price: 80,
-  },
-  {
-    name: "Capsicum",
-    photo_url:
-      "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
-    quantity: "One Unit",
-    id: 7,
-    price: 5,
-  },
-  {
-    name: "Apples",
-    photo_url:
-      "https://www.freepngimg.com/thumb/apple/9-apple-png-image-thumb.png",
-    quantity: "One Unit",
-    id: 8,
-    price: 30,
-  },
-  {
-    name: "StrawBerries",
-    photo_url:
-      "https://www.freepngimg.com/thumb/strawberry/1-strawberry-png-images-thumb.png",
-    quantity: "One Container",
-    id: 9,
-    price: 200,
-  },
-  {
-    name: "Garlic",
-    photo_url:
-      "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
-    quantity: "One Unit",
-    id: 10,
-    price: 20,
-  },
-  {
-    name: "Beetroot",
-    photo_url: "https://pngimg.com/uploads/beet/beet_PNG28.png",
-    quantity: "One Unit",
-    id: 11,
-    price: 20,
-  },
-  {
-    name: "Mangoes",
-    photo_url:
-      "https://www.freepngimg.com/thumb/mango/7-2-mango-free-png-image-thumb.png",
-    quantity: "One Unit",
-    id: 12,
-    price: 10,
-  },
-  {
-    name: "Tomatoes",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2985.png",
-    quantity: "One Unit",
-    id: 13,
-    price: 5,
-  },
-  {
-    name: "Lemons",
-    photo_url:
-      "https://www.freepngimg.com/thumb/lemon/6-2-lemon-png-image-thumb.png",
-    quantity: "One Unit",
-    id: 14,
-    price: 10,
-  },
-  {
-    name: "Avocado",
-    photo_url:
-      "https://www.freepngimg.com/thumb/avocado/1-2-avocado-png-clipart-thumb.png",
-    quantity: "One Unit",
-    id: 15,
-    price: 20,
-  },
-  {
-    name: "Pawpaw",
-    photo_url:
-      "https://www.freepngimg.com/thumb/papaya/24575-9-papaya-file-thumb.png",
-    quantity: "One Unit",
-    id: 17,
-    price: 50,
-  },
-  {
-    name: "Carrots",
-    photo_url: "https://www.freepngimg.com/thumb/categories/2971.png",
-    quantity: "One Kg",
-    id: 18,
-    price: 60,
-  },
-  {
-    name: "Onions",
-    photo_url:
-      "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
-    quantity: "One Kg",
-    id: 19,
-    price: 120,
-  },
-  {
-    name: "Potatoes",
-    photo_url:
-      "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
-    quantity: "One container",
-    id: 20,
-    price: 80,
+    description:
+      "Tropical pineapples grown naturally, delivering tangy sweetness in every slice.",
+    category: "Fruits",
   },
 ];
